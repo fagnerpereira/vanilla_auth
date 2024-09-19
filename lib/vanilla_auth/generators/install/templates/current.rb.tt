@@ -1,0 +1,6 @@
+class Current < ActiveSupport::CurrentAttributes
+  # Begin - Added by VanillaAuth
+  attribute :foo
+  attribute :bar
+  # End - Added by VanillaAuth
+end
